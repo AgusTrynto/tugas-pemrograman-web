@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web kesehatan</title>
+    <style>
+        #tabel-makanan {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #tabel-makanan th,#tabel-makanan td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        #tabel-makanan th {
+            background-color: #f2f2f2;
+        }
+      
+    </style>
 </head>
 <body>
     <h1 style="text-align: center; background-color: #0078d4; color: #fff; padding: 20px; margin: 0;">hidup sehat</h1>
@@ -41,12 +59,93 @@
                     <img src="hidup-sehat.jpg" alt="Ilustrasi Kesehatan" style="display: block; margin: 0 auto; max-width: 100%;">
             </td>
         </tr>
+        <tr>
+            <td style="width: 70%; padding-left: 20px; padding-right: 0px;">
+                <h2>Kalori harian</h2>
+                <p>Konsumsi kalori harian yang dianjurkan dapat bervariasi tergantung pada beberapa faktor, termasuk usia, jenis kelamin, tingkat aktivitas fisik, tinggi badan, berat badan, dan tujuan kesehatan individu. Namun, secara umum, ada panduan umum yang disarankan oleh beberapa lembaga kesehatan seperti Badan Kesehatan Dunia (WHO) dan Lembaga Makanan dan Nutrisi Nasional di berbagai negara.Panduan umum untuk kebutuhan kalori harian adalah:</p>
+                <ol>
+                    <li><strong>Rata-rata Dewasa Normal:</strong> Sebagai pedoman kasar, rata-rata kebutuhan kalori harian adalah sekitar 2.000 hingga 2.500 kalori untuk wanita dewasa dan 2.500 hingga 3.000 kalori untuk pria dewasa. Ini adalah panduan umum dan bisa sangat bervariasi berdasarkan faktor-faktor individu yang telah disebutkan sebelumnya.</li>
+                    <li><strong>Berat Badan:</strong> Kebutuhan kalori juga sangat tergantung pada berat badan. Orang yang lebih berat cenderung membutuhkan lebih banyak kalori karena tubuh mereka memerlukan energi tambahan untuk mempertahankan fungsi tubuh yang lebih besar.</li>
+                    <li><strong>Aktivitas Fisik:</strong> Orang yang berolahraga lebih intens memerlukan lebih banyak kalori. Aktivitas fisik meningkatkan kebutuhan kalori harian. Orang yang berolahraga secara teratur memerlukan lebih banyak energi untuk mendukung aktivitas fisik mereka.</li>
+                    <li><strong>Tujuan Kesehatan:</strong> Jika seseorang ingin menurunkan berat badan, mereka perlu menciptakan defisit kalori dengan membakar lebih banyak kalori melalui olahraga atau mengurangi asupan kalori. Sebaliknya, orang yang ingin menambah berat badan harus mengonsumsi lebih banyak kalori daripada yang mereka bakar.</li>
+                    <li><strong>Kesehatan Umum:</strong> Kondisi kesehatan seperti penyakit, kehamilan, menyusui, dan keadaan kesehatan tertentu dapat mempengaruhi kebutuhan kalori harian seseorang.</li>
+                </ol>
+            </td>
+        </tr>
     </table>
+    <h2>Daftar Konsumsi Kalori Harian</h2>
+    <table id="tabel-makanan">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Jenis Makanan</th>
+            <th colspan="2">Kalori</th>
+            <th rowspan="2">Satuan Porsi</th>
+            <th rowspan="2">Kalori per Porsi</th>
+          </tr>
+          <tr>
+            <th>Per 100g</th>
+            <th>Per 200g</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Nasi Putih</td>
+            <td>130</td>
+            <td>260</td>
+            <td>1 piring</td>
+            <td>260</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Roti Gandum</td>
+            <td>250</td>
+            <td>500</td>
+            <td>2 iris</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Ayam Panggang</td>
+            <td>165</td>
+            <td>330</td>
+            <td>1 potong</td>
+            <td>230</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Salmon</td>
+            <td>206</td>
+            <td>412</td>
+            <td>1 fillet</td>
+            <td>367</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Kentang Goreng</td>
+            <td>365</td>
+            <td>730</td>
+            <td>1 mangkuk</td>
+            <td>730</td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2"><strong>Total Kalori</strong></td>
+            <td></td>
+            <td><strong>2087</strong></td>
+          </tr>
+    </table>
+    <h2>Memiliki keluhan?</h2>
+    <p>Beritahu kami apa yang anda rasakan dan kami akan berikan solusinya, tuliskan keluhan yang anda rasakan pada kolom di bawah ini.</p>
     
+    <form method="post">
+        <label for="Keluhan">keluhan:</label><br>
+        <textarea id="keluhan" name="keluhan" rows="4" cols="50"></textarea><br><br>
+    
+        <input type="submit" value="Kirim">
+    </form>
     <p style="text-align: center;"><a href="https://kemkes.go.id/id/home">Pelajari lebih lanjut</a></p>
-    
     <footer style="text-align: center;">
         <p>&copy; 2023 Website Kesehatan</p>
     </footer>
+    
 </body>
 </html>
