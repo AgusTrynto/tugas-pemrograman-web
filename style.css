@@ -41,7 +41,8 @@ header {
 
 .tentang-saya,
 .pengalaman,
-.work-samples {
+.work-samples,
+.rangkuman {
     margin-top: 2rem;
     text-align: left;
 }
